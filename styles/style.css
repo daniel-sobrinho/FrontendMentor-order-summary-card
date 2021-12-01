@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p, span, button, a{
+    font-size: 16px;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-position-y: -75%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: min-content;
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 12px;
+}
+
+.card img{
+    border-radius: 12px 12px 0px 0px;
+}
+
+.content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.content h1{
+    font-size: 27px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 12px;    
+    margin-bottom: 15px;
+}
+
+.content p{
+    font-weight:500;
+    color: hsl(224, 23%, 55%);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 18px;
+    margin-bottom: 15px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    background-color: hsl(225, 100%, 98%);    
+    margin-bottom: 25px;
+}
+
+.plan{
+    display: flex;
+}
+
+#planTitle{
+    font-weight: 700;
+}
+
+#planPrice{
+    font-weight: 500;    
+    color: hsl(224, 23%, 55%);
+}
+
+#planDescription span{
+    color: hsl(223, 47%, 23%);
+    display: block;
+    margin-left: 20px;
+}
+
+.plans a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.content button{
+    display: block;
+    margin: auto;
+}
+
+.content button:hover{
+    cursor: pointer;
+}
+
+#confirmPayment{
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    border-style: none;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#cancelOrder{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+@media (max-width: 375px){
+    .card{
+        height: 90%;
+        width: 80%;
+    }
+
+    .content{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .content p{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 14px;
+    }
+
+    .plan{        
+        font-size: 14px;
+    }
+
+    #confirmPayment{        
+        font-size: 14px;
+    }
+    
+    #cancelOrder{        
+        font-size: 14px;
+    }
+}
