@@ -32,5 +32,5 @@ I learned to change the mouse cursor when hovering over an element, to use media
 
 ## Author
 
-- Github - [Daniel Sobrinho](https://www.your-site.com)
+- Github - [daniel-sobrinho](https://github.com/daniel-sobrinho)
 - Frontend Mentor - [@daniel-sobrinho](https://www.frontendmentor.io/profile/daniel-sobrinho)
