@@ -47,8 +47,8 @@ body{
     font-size: 27px;
     color: hsl(223, 47%, 23%);
     font-weight: 900;
-    margin-bottom: 12px;    
-    margin-bottom: 15px;
+    margin-top: 15px;    
+    margin-bottom: 30px;
 }
 
 .content p{
@@ -57,7 +57,7 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .plans{
@@ -68,7 +68,7 @@ body{
     padding-bottom: 15px;
     border-radius: 12px;
     background-color: hsl(225, 100%, 98%);    
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .plan{
@@ -111,7 +111,7 @@ body{
     color: hsl(0, 0%, 100%);
     border-style: none;
     border-radius: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #cancelOrder{
